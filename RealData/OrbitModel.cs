@@ -1,6 +1,6 @@
 ﻿namespace RealData;
 
-public class OrbitModel
+public class OrbitModel : BaseNotifyPropertyChanged
 {
     public double Perihelion { get; set; }
     public double Aphelion { get; set; }

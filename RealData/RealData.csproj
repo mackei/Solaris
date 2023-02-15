@@ -7,19 +7,12 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Remove="Base\**" />
-    <EmbeddedResource Remove="Base\**" />
-    <None Remove="Base\**" />
-  </ItemGroup>
-
-  <ItemGroup>
     <None Remove="FodyWeavers.xml" />
   </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="PropertyChanged.Fody" Version="4.1.0" />
     <PackageReference Include="System.ValueTuple" Version="4.5.0" />
-    <PackageReference Include="Telnet" Version="0.8.6" />
   </ItemGroup>
 
 </Project>

@@ -1,6 +1,6 @@
 ﻿namespace RealData;
 
-public class Coordinates
+public class Coordinates : BaseNotifyPropertyChanged
 {
     /// <summary>
     /// Position in meters
